@@ -1,0 +1,13 @@
+{
+  "name": "ShareOwl",
+  "version": "0.1.0",
+  "main": "main.js",
+  "dependencies": {
+    "electron": "^1.7.9",
+    "request": "^2.78.0"
+  },
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . SimpulShares --platform=darwin --arch=x64 --version=1.0.0 --overwrite"
+  }
+}
